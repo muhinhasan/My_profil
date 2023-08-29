@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@500&family=Raleway:wght@500&display=swap');
+
+:root{
+    --yellow:#f5c32c ;
+    --orange:#fca61f ;
+    --black:#242d49 ;
+    --gray:#788097 ;
+    --bluecard:#ddf8fe ;
+    --purple:rgb(238 210 255) ;
+    --boxshodow:0px 19px 60px rgb(0 0 0 / 8%) ;
+    --orangecard:rgba(252 166 31 0.45) ;
+    --smboxshadow:-79px 51px 65px rgb(0 0 0 0.08) ;
+    --fontfamyly1: 'Black Ops One', cursive;
+
+}
+
+
+*{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+
+}
+
+body{
+margin: 0;
+padding: 0;
+background: #131313 ;
+ 
+}
+
+
+
+/* header-idet */
+header{
+  position: sticky;
+  z-index: 50;
+  
+  
+  
+  
+}
+.sec-1-name .otor-btn{
+    margin: 10px 15px;
+    height: 50px;
+    width: 140px;
+    z-index: 13;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 6px 5px rgb(46, 45, 45);
+    outline: none;
+    position: relative;
+ 
+    
+}
+
+.sec-1-name .otor-btn button{
+    border-radius: 30px;
+    border: none;
+    background: #141517;
+    height: 41px;
+    width: 131px;
+    z-index: 3;
+    color: var(--orange);
+    font-family: var(--fontfamyly1);
+    letter-spacing: 3px;
+    position: absolute;
+}
+
+.otor-btn span{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: 30px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}  
+.otor-btn .span2{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: 30px;
+    filter: blur(6px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 1;
+
+ } 
+.otor-btn{
+    animation: rotate 1.5s linear infinite;
+    
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    } 
+    
+} 
+@media(max-width: 895px){
+    .sec-1-name .otor-btn{
+        height: 35px;
+        width: 120px;
+
+    }
+.sec-1-name .otor-btn button{
+    height: 26px;
+    width: 111px;
+    font-size: 17px;
+}   
+.sec-1{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    background: #141517;
+    box-shadow: 30px 0px 40px rgb(0, 0, 0);
+    position: fixed;
+}
+
+}
+ .img1-div{
+    margin: 10px 15px;
+    height: 60px;
+    width: 60px;
+    z-index: 13;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    outline: none;
+    position: relative;
+ 
+}
+
+.img1-div .img1{
+   
+    z-index: 3;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+ .span1{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: 100px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}  
+ .span3{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius:100px;
+    filter: blur(6px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 1;
+
+ } 
+.img1-div{
+    animation: rotate 1.5s linear infinite;
+    
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    } 
+    
+} 
+@media(max-width: 895px){
+    .sec-1-name .otor-btn{
+        height: 35px;
+        width: 120px;
+
+    }
+.sec-1-name .otor-btn button{
+    height: 26px;
+    width: 111px;
+    font-size: 17px;
+}   
+
+}
+
+
+/* header-idet end */
+/*Body name*/
+.name-div{
+  width: 100%;
+  height: 100px;
+  color: green;
+  background: transparent;
+  margin-top: 70px;
+  position: absolute;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  z-index: 0;
+ 
+  
+  
+  
+}
+.name{
+  margin-top: 40px;
+  
+  color: red;
+  font-size: 60px;
+  font-weight: 700;
+  
+  letter-spacing: 7px;
+  background: linear-gradient(90deg,#14ffe9, #ffeb3b, #ff00e0);
+  font-family:  'Black Ops One', cursive;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+.text-div2{
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  margin-top: 60px;
+  padding-left: 60px;
+  display: flex;
+  
+}
+.text-div2 h3{
+  font-size: 20px;
+  background: linear-gradient(90deg,#14ffe9, #ffeb3b, #ff00e0);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+
+}
+.text-div2 h4{
+  font-size: 20px;
+  background: linear-gradient(90deg,#14ffe9, #ffeb3b, #ff00e0);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 9px;
+  padding-left: 9px;
+
+}
+.text-div3{
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  padding-left: 60px;
+  display: flex;
+  
+}
+
+.text-div3 h3{
+  font-size: 20px;
+  background: linear-gradient(90deg,#14ffe9, #ffeb3b, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  animation: typing 2s steps(30)
+  
+}
+@keyframes typing{
+  0% {
+    letter-spacing: 5px;
+    
+  }
+  100% {
+    letter-spacing: 1px;
+  }
+  
+}
+.text-div4{
+  width: 100%;
+  height: 100px;
+  background: transparent;
+  padding-left: 60px;
+  display: flex;
+  
+}
+.text-div4 a{
+  text-decoration: none;
+  color:#131313;
+  background: linear-gradient(to right ,#14ffe9, #ff00e0);
+  height: 40px;
+  width:150px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 1000;
+  
+  
+}
+
+
+ .text-div5 {
+    padding: 1px;
+    height: 320px;
+    width: 320px;
+    z-index: 15;
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 20px;
+    outline: none;
+    margin-left: 28px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  
+ 
+}
+
+.text-div5  img{
+  padding: 1px;
+   position: absolute;
+    z-index: 20;
+    height: 310px;
+    width: 310px;
+    border-radius: 20px;
+    
+}
+
+ .span5{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: 20px;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}  
+ .span6{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius:20px;
+    filter: blur(6px);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    z-index: 1;
+
+ } 
+.text-div5 {
+    animation: rotate 1.5s linear infinite;
+    
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    } 
+    
+} 
+.about-me{
+  height: 400px;
+  width: 320px;
+  border-radius: 20px;
+  margin-left: 28px;
+  margin-top: 18px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  padding:20px;
+  
+}
+.about-me p {
+  color:  #131313;
+  font-size: 30px;
+  font-family:  'Black Ops One', cursive;
+
+}
+.about-me span{
+  font-size: 20px;
+  
+}
+  
+.about-me h5{
+  padding-top: 7px;
+  font-size: 17px;
+  
+}
+.navi{
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  height: 150px;
+  width: 50px;
+  border-radius: 50px;
+  padding: 10px;
+  position: fixed;
+  top: 260px;
+  right: 10px;
+  z-index: 101;
+  
+  
+}
+.navi i{
+  font-size: 25px;
+  color: #131313;
+  padding-top: 6px;
+  
+  
+}
+.navi {
+    animation: rotate 1.5s linear infinite;
+    
+
+
+    
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    } 
+    
+} 
+  .about-me {
+    animation: rotate 1.5s linear infinite;
+    
+}
+@keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    } 
+    
+} 
+
+
+
+
+
+
+/*Body name*/
+}
+
+
+
+
+
+
+
+
+
+/*🥺🥺🥺🥺🥺*/
+/* Import Google Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: #131313;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  perspective: 1000px;
+  margin-top: 50px;
+}
+section::before {
+  content: "";
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  transform: translate(-150px, -100px);
+  
+}
+section::after {
+  content: "";
+  position: absolute;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  transform: translate(150px, 100px);
+  
+}
+.container {
+  margin-top: 30px;
+  position: relative;
+  height: 225px;
+  width: 375px;
+  z-index: 100;
+  transition: 0.6s;
+  transform-style: preserve-3d;
+}
+.container:hover {
+  transform: rotateY(180deg);
+}
+.container .card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  border-radius: 25px;
+  backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backface-visibility: hidden;
+}
+.front-face header,
+.front-face .logo {
+  display: flex;
+  align-items: center;
+}
+.front-face header {
+  justify-content: space-between;
+}
+.front-face .logo img {
+  width: 48px;
+  margin-right: 10px;
+}
+.logo h5 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.front-face .chip {
+  width: 50px;
+}
+.front-face .card-details {
+  display: flex;
+  margin-top: 40px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.valid-date h6 {
+  font-size: 10px;
+  font-weight: 400;
+}
+.name-number .number {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.name-number .name {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.card.back-face {
+  border: none;
+  padding: 15px 25px 25px 25px;
+  transform: rotateY(180deg);
+}
+.card.back-face h6 {
+  font-size: 8px;
+}
+.card.back-face .magnetic-strip {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  height: 45px;
+  width: 100%;
+  background: #000;
+}
+.card.back-face .signature {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 80px;
+  height: 40px;
+  width: 85%;
+  border-radius: 6px;
+  background: repeating-linear-gradient(
+    #fff,
+    #fff 3px,
+    #efefef 0px,
+    #efefef 9px
+  );
+}
+.signature i {
+  color: #000;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-right: -30px;
+  z-index: -1;
+}
+.card.back-face h5 {
+  font-size: 8px;
+  margin-top: 15px;
+}
+.a1{
+  font-size: 30px;
+  margin-left: 28px;
+    
+  background: linear-gradient(90deg,#14ffe9, #ffeb3b, #ff00e0);
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+ margin-top: 20px;
+  text-decoration: none;
+  
+}
